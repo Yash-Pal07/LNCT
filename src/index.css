@@ -3,3 +3,67 @@
 .navbar{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.658), transparent);
 }
+
+.floating-sidebar {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1000;
+  }
+  
+  .sidebar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: rotate(90deg); */
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    height: 12vw;
+    width: 3.5vw;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5vw;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .admission-btn {
+    background-color: #2d2754;
+  }
+  .admission-btn h3 {
+    transform: rotate(180deg);
+  }
+  
+  .chat-btn {
+    background-color: #f2b100;
+    color: black;
+  }
+  
+  .icon-btn {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .phone-btn {
+    background-color: #2d2754;
+    margin-bottom: 1vw;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25D366;
+  }
+  
+  .doc-btn {
+    background-color: #EB4A4A;
+  }
+  
