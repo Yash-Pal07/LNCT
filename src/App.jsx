@@ -1,9 +1,10 @@
 import React from 'react'
+import AllRoutes from './routes/AllRoutes'
 
 function App() {
   return (
     <div>
-      <h1 className='text-3xl font-bold underline'>HELLO</h1>
+      <AllRoutes />
     </div>
   )
 }
